@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-* prints size of various types on the computer it is compiled and run on
+*Main - prints size of various types on the computer it is compiled and run on
 */
 
 int main(void)
@@ -11,11 +11,11 @@ int main(void)
 	long long int lli;
 	float f;
 
-	printf("The size of a char is: %lu.\n", sizeof(c));
-	printf("The size of an int is: %lu.\n", sizeof(i));
-	printf("The size of a long int is: %lu.\n", sizeof(li));
-	printf("The size of a long long int is: %lu.\n", sizeof(lli));
-	printf("The size of a float is: %lu.\n", sizeof(f));
+	printf("Size of a char is: %lu byte(s)\n", sizeof(c));
+	printf("Size of an int is: %lu byte(s)\n", sizeof(i));
+	printf("Size of a long int is: %lu byte(s)\n", sizeof(li));
+	printf("Size of a long long int is: %lu byte(s)\n", sizeof(lli));
+	printf("Size of a float is: %lu byte(s)\n", sizeof(f));
 
 	return (0);
 }
