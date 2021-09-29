@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-
+/**
+ * main - this is what the main function does
+ *
+ * Return: this is what's supposed to be returned to main
+ */
 int main(void)
 {
 	int n;
@@ -18,7 +22,7 @@ int main(void)
 }
 	else if (x == 0)
 	{
-	printf("Last digit of %d is %d and is zero\n", n, x);
+	printf("Last digit of %d is %d and is 0\n", n, x);
 }
 	else
 	{
