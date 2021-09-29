@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * main - this is what the main function does
+ * print_alphabet - this is what the main function does
  *
  * Return: this is what's supposed to be returned to main
  */
 
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char ch;
 
