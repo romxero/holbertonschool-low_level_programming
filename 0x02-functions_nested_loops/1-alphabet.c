@@ -1,8 +1,19 @@
 #include "main.h"
+/**
+ * main - this is what the main function does
+ *
+ * Return: this is what's supposed to be returned to main
+ */
 
-void print_alphebet(void)
+
+void print_alphabet(void);
+
+int main(void)
 {
-  for (i = 'a'; i <= 'z', i++)
-    {
-      putchar(i);
-    }
+  char ch;
+
+  for (ch = 'a'; ch <= 'z'; ch++)
+    putchar (ch);
+  putchar('\n');
+  return (0);
+}
