@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _putcher(char c)
+int main(void)
 {
 
 _putchar('_');
