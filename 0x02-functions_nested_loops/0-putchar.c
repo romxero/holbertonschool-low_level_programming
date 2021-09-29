@@ -1,6 +1,6 @@
 #include "main.h"
 
-int main(void)
+int _putcher(char c)
 {
 
 _putchar('_');
@@ -12,6 +12,6 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 
- return (0)
+	return (0);
 
 }
