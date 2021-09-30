@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*
-*Main - prints size of various types on the computer it is compiled and run on
-*/
+/**
+ * main - this is what the main function does
+ *
+ * Return: this is what's supposed to be returned to main
+ */
 
 int main(void)
 {
