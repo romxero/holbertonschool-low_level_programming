@@ -4,16 +4,16 @@
  *
  * Return: this is what's supposed to be returned to main
  */
-int main(void)
+
+int _islower(int c);
+
+
 {
-	char ch;
+	if (c <= 'z')
+	return (1);
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar (ch);
-
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	putchar (ch);
-	putchar('\n');
-
+	else
 	return (0);
+
+
 }
