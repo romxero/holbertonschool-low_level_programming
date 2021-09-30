@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
- * _islower - this is what the main function does
- * @c: variable
+ * main - this is what the main function does
+ *
  * Return: this is what's supposed to be returned to main
  */
 
-int _islower(int c);
+int main(void);
 
-
+char c;
 {
-	if (c >= 'a' && c <= 'z')
-	{
-	return (1);
-	}
-	else
-	{
-	return (0);
-	}
+	for (c = 'a'; c <= 'z'; c++;)
+	putchar (c);
 
+	for (c = 'A'; c <= 'Z'; c++;)
+	putchar (c);
+
+	putchar ('\n');
+
+	return (0);
 }
