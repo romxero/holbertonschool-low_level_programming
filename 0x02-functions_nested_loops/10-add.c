@@ -9,8 +9,10 @@
 int add(int x, int y)
 {
 
-	x = x + y;
-	putchar(x);
+int z;
+
+	z = x + y;
+	putchar(z);
 
 
 }
