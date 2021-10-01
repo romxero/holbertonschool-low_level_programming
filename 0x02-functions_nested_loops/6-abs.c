@@ -12,13 +12,11 @@ int x;
 {
 	if (x < 0)
 	{
-	x * -1
-	_putchar(x);
+	x = x * -1;
 	return (x);
 	}
 	else
 	{
-	_putchar('x');
 	return (x);
 	}
 
