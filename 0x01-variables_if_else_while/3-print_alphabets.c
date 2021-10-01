@@ -5,10 +5,11 @@
  * Return: this is what's supposed to be returned to main
  */
 
-int main(void);
+int main(void)
 
-char c;
 {
+char c;
+
 	for (c = 'a'; c <= 'z'; c++;)
 	putchar (c);
 
