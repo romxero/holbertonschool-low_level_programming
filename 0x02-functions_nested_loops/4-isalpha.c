@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * int _isalpha(int c); - this is what the main function does
+ * _isalpha - this is what the main function does
  * @c: variable
  * Return: this is what's supposed to be returned to main
  */
 
-int _islower(int c)
 
+int _isalpha(int c)
 
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
