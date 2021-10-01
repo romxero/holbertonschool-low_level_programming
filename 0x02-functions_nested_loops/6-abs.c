@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - this is what the main function does
- * @int: variable
+ * @x: variable
  * Return: this is what's supposed to be returned to main
  */
 
