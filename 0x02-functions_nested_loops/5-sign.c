@@ -19,7 +19,7 @@ int print_sign(int n)
 	{
 	return (0);
 	printf("0");
-	};
+	}
 	else
 	{
 	return (-1);
