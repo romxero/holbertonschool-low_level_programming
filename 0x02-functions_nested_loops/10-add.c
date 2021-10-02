@@ -1,4 +1,4 @@
-#include "main.h"
+=#include "main.h"
 /**
  * add - this is what the main function does
  * @x: variable
@@ -12,7 +12,7 @@ int add(int x, int y)
 int z;
 
 	z = x + y;
-	putchar(z);
+	_putchar(z);
 
 
 }
