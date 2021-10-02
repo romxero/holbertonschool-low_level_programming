@@ -1,4 +1,4 @@
-=#include "main.h"
+#include "main.h"
 /**
  * add - this is what the main function does
  * @x: variable
