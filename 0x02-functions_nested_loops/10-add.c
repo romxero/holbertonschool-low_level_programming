@@ -14,5 +14,5 @@ int z;
 	z = x + y;
 	_putchar(z);
 
-
+	return (0);
 }
