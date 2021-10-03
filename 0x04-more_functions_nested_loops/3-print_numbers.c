@@ -6,9 +6,10 @@
  */
 
 void print_numbers(void)
-int mul(int a, int b)
 
 {
+	int a;
+
 	for (a >= 0; a <= 9; a++)
 	{
 		_putchar(a);
