@@ -2,7 +2,6 @@
 /**
  * print_numbers - this is what the main function does
  * @a: variable
- * @b: variable
  * Return: this is what's supposed to be returned to main
  */
 
