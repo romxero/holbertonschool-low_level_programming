@@ -5,26 +5,24 @@
  * Return: this is what's supposed to be returned to main
  */
 
-void more_numbers(void);
+void more_numbers(void)
 
 
 {
 
 	char a;
 
-
-	for (a >= 0; a <= 14; a++)
+	for (a = 0; a <= 9; a++)
 	{
-	  if
-		(a );
 		_putchar(a);
-		{
-		  if (a >=10 && a <= 14);
-		  _putchar (last digit)
-		    }
-
-		
 	}
 
-	_putchar(\n);
+		if (a >= 10 && a <= 14);
+			{
+			 _putchar(a % 10);
+			}
+
+
+
+	_putchar('\n');
 }
