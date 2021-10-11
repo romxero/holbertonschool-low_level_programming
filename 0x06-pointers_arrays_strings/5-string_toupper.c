@@ -11,16 +11,21 @@ char *string_toupper(char ch)
 
 {
 
-	int a;
 
-	a = 0;
+	int = 0;
 
-	while ((s1[a] == s2[a]) && (s1[a] != '\0' && s2[a] != '\0'))
+	while (ch[i] != '\n')
 	{
-		a++;
+
+		if (ch[i] is >= 'a'  && ch[i] < 'z')
+		{
+			ch[i] -= 32;
+		}
+
+		i++;
 	}
 
-	return (*s1 - *s2);
+	return (ch);
 
 
 }

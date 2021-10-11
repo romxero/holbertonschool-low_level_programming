@@ -12,16 +12,20 @@ void reverse_array(int *a, int n)
 
 {
 
-	int a;
+	int first = 0;
+	int last n - 1;
+	int tmp = 0;
 
-	a = 0;
-
-	while ((s1[a] == s2[a]) && (s1[a] != '\0' && s2[a] != '\0'))
+	while (first < last)
 	{
-		a++;
+		tmp = a[first];
+		a[first] = a[last];
+		a[last] = tmp;
+		first++;
+		last--;
 	}
 
-	return (*s1 - *s2);
 
 
+	    
 }
