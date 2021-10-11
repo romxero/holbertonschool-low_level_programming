@@ -7,12 +7,12 @@
  */
 
 
-char *string_toupper(char ch)
+char *string_toupper(char *ch)
 
 {
 
 
-	int = 0;
+	int i = 0;
 
 	while (ch[i] != '\n')
 	{
