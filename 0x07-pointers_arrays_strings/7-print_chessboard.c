@@ -13,15 +13,31 @@ void print_chessboard(char (*a)[8])
 
 {
 
-	int i;
+  int rows = 8;
+  int const columns = 8;
 
-	for (i = 0; i < n; i++)
+  int chesss[ ] [columns] = {
+			     {r, k, b, q, k, b, k, r},
+			     {p, p, p, p, p, p, p, p},
+			     {" ", " ", " ", " ", " ", " ", " ", " ",}
+			     {" ", " ", " ", " ", " ", " ", " ", " ",}
+			     {" ", " ", " ", " ", " ", " ", " ", " ",}
+			     {" ", " ", " ", " ", " ", " ", " ", " ",}
+			     {P, P, P, P, P, P, P, P}
+			     {R, K, B, Q, K, B, K, R}
+			     
+  };
+
+  for(int i = 0; i < rows; i++)
+    {
+      for (int j = 0; j < columns; j++)
 	{
-	s[i] = b;
+	  printf("%d ", chesss[i][j];
+		 }
+	    printf("\n");
 	}
 
-
-	return (s);
+	return (0);
 
 
 }
