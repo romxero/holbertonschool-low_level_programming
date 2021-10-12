@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums - this is what the main function does
  * @a: variable
@@ -14,15 +15,8 @@ void print_diagsums(int *a, int size)
 
 {
 
-	int i;
-
-	for (i = 0; i < n; i++)
-	{
-	s[i] = b;
-	}
-
-
-	return (s);
+printf("%d ", *a);
+printf("%d ", size);
 
 
 }
